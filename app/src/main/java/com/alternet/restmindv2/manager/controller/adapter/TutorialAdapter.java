@@ -1,4 +1,4 @@
-package com.alternet.restmindv2.manager.adapter;
+package com.alternet.restmindv2.manager.controller.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
