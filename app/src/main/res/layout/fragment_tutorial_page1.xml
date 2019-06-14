@@ -6,12 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".fragment.TutorialPage.Page1">
 
-
-
-    <ImageView
-        android:id="@+id/tutorialResImagePage1"
+    
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/image_layout_green_dark"
-        android:scaleType="fitXY"/>
+        android:layout_margin="50dp">
+        <ImageView
+            android:id="@+id/tutorialResImage1Page1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/layout2"
+            android:scaleType="fitXY"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/tutorialResImage2Page1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/layout3"
+                android:scaleType="fitXY"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="40dp"/>
+
+        
+        </RelativeLayout>
+    </RelativeLayout>
 </RelativeLayout>
