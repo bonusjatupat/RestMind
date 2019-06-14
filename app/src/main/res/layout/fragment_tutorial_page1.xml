@@ -7,11 +7,7 @@
     tools:context=".fragment.TutorialPage.Page1">
 
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnTest"
-        android:text="re-animation"/>
+
     <ImageView
         android:id="@+id/tutorialResImagePage1"
         android:layout_width="match_parent"
